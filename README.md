@@ -63,7 +63,7 @@ This dataset contains transactional sales data including orders, customers, prod
 ## 📸 Screenshots
 
 ### 🔹 Dashboard Overview
-![Dashboard](Screenshots/Image2.png)
+![Dashboard](Screenshots/image1.png)
 
 > Add more screenshots inside the Screenshots folder if needed.
 
