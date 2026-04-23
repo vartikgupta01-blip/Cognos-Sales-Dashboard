@@ -1,150 +1,123 @@
-# 📊 IBM Cognos Analytics – Sales Dashboard & Reporting Project
+# 📊 IBM Cognos Analytics – Sales Performance & Regional Insights Dashboard
+
+![License](https://img.shields.io/badge/license-MIT-green)
+![Tool](https://img.shields.io/badge/Tool-IBM%20Cognos%20Analytics-blue)
+![Domain](https://img.shields.io/badge/Domain-Retail-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
 
 ## 📌 Project Overview
 
-This project demonstrates the use of **IBM Cognos Analytics** to build interactive dashboards and reports using the **Superstore dataset (Kaggle)**. It focuses on data visualization, reporting techniques, and advanced features like filtering, prompts, and drill-through analysis to derive meaningful business insights.
+This project demonstrates the use of IBM Cognos Analytics to analyze and visualize retail sales data. The dashboard transforms raw transactional data into meaningful insights through interactive visualizations and key performance indicators (KPIs).
+
+The goal is to enable stakeholders to quickly understand business performance, identify trends, and make data-driven decisions.
 
 ---
 
-## 📂 Dataset
+## 🎯 Objectives
 
-* **Source:** Kaggle – Superstore Dataset
-* Contains data on:
-
-  * Sales
-  * Profit
-  * Orders
-  * Customers
-  * Regions and States
+- Develop a structured data model for accurate reporting  
+- Build interactive dashboards for business users  
+- Analyze sales, profit, and regional performance  
+- Extract actionable insights from data  
+- Demonstrate BI tool proficiency  
 
 ---
 
-## 🚀 Key Features & Activities Performed
+## 🗂️ Dataset Information
 
-### 1. 📈 Multiple Chart Visualizations
+- **Dataset Name:** Superstore Dataset  
+- **Source:** (Add link here)  
+- **Format:** CSV  
+- **Domain:** Retail  
+- **Rows:** ~9000+  
+- **Columns:** ~20+  
 
-* Created various charts including:
+### 📄 Description
 
-  * Column Charts
-  * Bar Charts
-  * Line Charts
-  * Pie & Donut Charts
-* Compared different visual formats to identify the most effective representation of data.
-
----
-
-### 2. 📋 Detailed List Report
-
-* Designed a structured list report
-* Organized multi-column data for:
-
-  * Better readability
-  * Easy navigation
+This dataset contains transactional sales data including orders, customers, products, sales, profit, discount, quantity, and geographic information (region/state).
 
 ---
 
-### 3. 🏗️ Custom Data Module
+## 📊 Dashboard Features
 
-* Built a **custom data module** using the uploaded dataset
-* Structured data for reporting and analysis
+- KPI Cards:
+  - Total Sales  
+  - Average Sales  
+  - Total Profit  
+  - Total Quantity  
 
----
+- Column Chart:
+  - Sales by Category  
 
-### 4. 🎨 Report Styling & Themes
+- Color Segmentation:
+  - Region / State  
 
-* Applied built-in Cognos themes
-* Customized colors and layout for:
-
-  * Improved visual clarity
-  * Professional presentation
-
----
-
-### 5. 🔢 Crosstab Report
-
-* Developed a crosstab report using:
-
-  * One measure (Sales)
-  * Multiple dimensions (State, Category, etc.)
-* Analyzed relationships across categories
+- Interactive Features:
+  - Filtering  
+  - Drill-down  
 
 ---
 
-### 6. 🔍 Data Filtering
+## 📸 Screenshots
 
-* Implemented filters across reports:
+### 🔹 Dashboard Overview
+![Dashboard](Screenshots/Image2.png)
 
-  * Top/Bottom filters
-  * Conditional filters
-  * Value-based filters
-* Enabled targeted data analysis
+> Add more screenshots inside the Screenshots folder if needed.
 
 ---
 
-### 7. 🎛️ Interactive Reports with Prompts
+## 📈 Key Insights
 
-* Created interactive list reports using:
-
-  * Value prompts
-  * Date prompts
-* Allowed users to dynamically filter and control report data in real time
-
----
-
-### 8. 🧾 Professional Report Design
-
-* Added:
-
-  * Custom page headers
-  * Calculated fields (e.g., Rank, Aggregations)
-* Enhanced report usability and presentation
+- Technology category generates the highest sales  
+- Sales performance varies across regions and states  
+- High discounts reduce overall profitability  
+- Some regions show strong revenue concentration  
 
 ---
 
-### 9. 🔗 Drill-Through Functionality
+## ⚙️ Tools & Technologies
 
-* Implemented drill-through navigation:
-
-  * From summary reports → detailed reports
-* Enabled deeper data exploration
-
----
-
-## 📊 Sample Insight
-
-* Identified **Top 10 States by Sales**
-* Compared sales contribution using charts and ranking tables
+- IBM Cognos Analytics  
+- Data Visualization  
+- Business Intelligence Reporting  
 
 ---
 
-## 🛠️ Tools & Technologies
+## ▶️ How to Use
 
-* IBM Cognos Analytics
-* Data Visualization Techniques
-* Business Intelligence Reporting
-
----
-
-## 📎 Project Outcome
-
-This project demonstrates the ability to:
-
-* Build interactive dashboards
-* Create professional reports
-* Perform data analysis using Cognos
-* Implement advanced BI features
+1. Open the dashboard in Cognos  
+2. Switch to **View Mode**  
+3. Interact with charts:
+   - Click to filter  
+   - Hover for details  
+4. Analyze KPIs and trends  
 
 ---
 
-## 📌 Author
+## 🚀 Future Improvements
 
-* *Vartika Gupta*
-* *Anshuman Yadav *
+- Add time-based analysis (monthly/yearly trends)  
+- Improve visualization clarity  
+- Add profit margin KPIs  
+- Include advanced filters  
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
 
 ---
 
-## ⭐ Notes
+## 👤 Author
 
-This project is part of a learning and portfolio showcase to demonstrate practical skills in **Business Intelligence and Data Analytics using IBM Cognos**.
+**Vartika Gupta**  
+- GitHub: https://github.com/vartikgupta01-blip 
+- LinkedIn: https://www.linkedin.com/in/vartika-gupta-33b89820b/?skipRedirect=true
 
----
+**Anshuman Yadav**  
+- GitHub: 
+- LinkedIn: 
